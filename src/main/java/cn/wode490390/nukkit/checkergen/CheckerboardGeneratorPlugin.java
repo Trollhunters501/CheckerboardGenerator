@@ -14,7 +14,6 @@ public class CheckerboardGeneratorPlugin extends PluginBase {
 
         }
 
-        Generator.addGenerator(CheckerboardGenerator.class, "default", Generator.TYPE_INFINITE);
-        Generator.addGenerator(CheckerboardGenerator.class, "normal", Generator.TYPE_INFINITE);
+        Generator.addGenerator(CheckerboardGenerator.class, "checkerbor", Generator.TYPE_INFINITE);
     }
 }
